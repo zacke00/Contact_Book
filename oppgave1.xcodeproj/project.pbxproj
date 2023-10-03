@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1810AD9C2AC3044C009FF86F /* AddToFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */; };
+		1817B4EC2AB8A2A40069742C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817B4EB2AB8A2A40069742C /* FavoritesView.swift */; };
+		1817B4EE2AB8A63F0069742C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817B4ED2AB8A63F0069742C /* SettingsView.swift */; };
 		18DB50272AB094F1007C4BD3 /* oppgave1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50262AB094F1007C4BD3 /* oppgave1App.swift */; };
 		18DB50292AB094F1007C4BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50282AB094F1007C4BD3 /* ContentView.swift */; };
 		18DB502B2AB094F2007C4BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DB502A2AB094F2007C4BD3 /* Assets.xcassets */; };
@@ -14,6 +17,11 @@
 		18DB50382AB094F2007C4BD3 /* oppgave1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50372AB094F2007C4BD3 /* oppgave1Tests.swift */; };
 		18DB50422AB094F2007C4BD3 /* oppgave1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50412AB094F2007C4BD3 /* oppgave1UITests.swift */; };
 		18DB50442AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50432AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift */; };
+		18DB50512AB0951E007C4BD3 /* Kontakter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50502AB0951E007C4BD3 /* Kontakter.swift */; };
+		18DB50532AB09B4C007C4BD3 /* AddKontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */; };
+		18DB50552AB1B6DF007C4BD3 /* KontakterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */; };
+		18DB50572AB2138B007C4BD3 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50562AB2138B007C4BD3 /* EditView.swift */; };
+		18DB50592AB33D2D007C4BD3 /* EditKontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToFavoriteView.swift; sourceTree = "<group>"; };
+		1817B4EB2AB8A2A40069742C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		1817B4ED2AB8A63F0069742C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18DB50232AB094F1007C4BD3 /* oppgave1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oppgave1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DB50262AB094F1007C4BD3 /* oppgave1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oppgave1App.swift; sourceTree = "<group>"; };
 		18DB50282AB094F1007C4BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,11 @@
 		18DB503D2AB094F2007C4BD3 /* oppgave1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oppgave1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DB50412AB094F2007C4BD3 /* oppgave1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oppgave1UITests.swift; sourceTree = "<group>"; };
 		18DB50432AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oppgave1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18DB50502AB0951E007C4BD3 /* Kontakter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kontakter.swift; sourceTree = "<group>"; };
+		18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKontaktView.swift; sourceTree = "<group>"; };
+		18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakterView.swift; sourceTree = "<group>"; };
+		18DB50562AB2138B007C4BD3 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditKontaktView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,14 @@
 				18DB50282AB094F1007C4BD3 /* ContentView.swift */,
 				18DB502A2AB094F2007C4BD3 /* Assets.xcassets */,
 				18DB502C2AB094F2007C4BD3 /* Preview Content */,
+				18DB50502AB0951E007C4BD3 /* Kontakter.swift */,
+				18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */,
+				18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */,
+				18DB50562AB2138B007C4BD3 /* EditView.swift */,
+				18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */,
+				1817B4EB2AB8A2A40069742C /* FavoritesView.swift */,
+				1817B4ED2AB8A63F0069742C /* SettingsView.swift */,
+				1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */,
 			);
 			path = oppgave1;
 			sourceTree = "<group>";
@@ -257,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1817B4EC2AB8A2A40069742C /* FavoritesView.swift in Sources */,
+				18DB50512AB0951E007C4BD3 /* Kontakter.swift in Sources */,
 				18DB50292AB094F1007C4BD3 /* ContentView.swift in Sources */,
+				18DB50572AB2138B007C4BD3 /* EditView.swift in Sources */,
+				1817B4EE2AB8A63F0069742C /* SettingsView.swift in Sources */,
+				1810AD9C2AC3044C009FF86F /* AddToFavoriteView.swift in Sources */,
+				18DB50592AB33D2D007C4BD3 /* EditKontaktView.swift in Sources */,
 				18DB50272AB094F1007C4BD3 /* oppgave1App.swift in Sources */,
+				18DB50532AB09B4C007C4BD3 /* AddKontaktView.swift in Sources */,
+				18DB50552AB1B6DF007C4BD3 /* KontakterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

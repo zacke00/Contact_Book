@@ -45,22 +45,31 @@ struct oppgave1App: App {
     var body: some Scene {
         WindowGroup {
             TabView{
-                ContentView(kontakter: Kontakter.demoKontakter, favorites: $favorites)
-                    .tabItem {
-                        Label("Kontakter", systemImage: "book.fill")
-                    }
-                Favorites(favorites: $favorites)
-                    .badge($favorites.count)
-                    .tabItem {
-                        Label("Favorites", systemImage: "star.fill")
-                    }.onAppear{
-                        favoritesOnAppear()
-                    }
-                Settings()
-                    .tabItem{
-                        Label("Settings", systemImage: "square.and.pencil")
-                    }
-            }.onAppear{
+                Group{
+                    ContentView(kontakter: Kontakter.demoKontakter, favorites: $favorites)
+                        .tabItem {
+                            Label("Kontakter", systemImage: "book.fill")
+                        }
+
+                    FavoritesView(favorites: $favorites)
+                        .tabItem {
+                            Label("Favorites", systemImage: "star.fill")
+                        }.background(Color(UIColor.Dark_SecondaryColor))
+                        .onAppear{
+                            favoritesOnAppear()
+                        }
+                    Settings()
+                        .tabItem{
+                            Label("Settings", systemImage: "square.and.pencil")
+                        }
+                }
+                .toolbar(.visible, for: .tabBar)
+                 
+                
+            }
+            .onAppear{
+                UITabBar.appearance().backgroundColor = UIColor.Dark_SecondaryColor
+                UITabBar.appearance().unselectedItemTintColor = UIColor.gray
                 onAppear()
             }
         }

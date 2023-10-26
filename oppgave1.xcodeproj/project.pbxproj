@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1810AD9C2AC3044C009FF86F /* AddToFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */; };
+		1810AD9C2AC3044C009FF86F /* AddToFavoriteIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810AD9B2AC3044C009FF86F /* AddToFavoriteIconView.swift */; };
 		1817B4EC2AB8A2A40069742C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817B4EB2AB8A2A40069742C /* FavoritesView.swift */; };
 		1817B4EE2AB8A63F0069742C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817B4ED2AB8A63F0069742C /* SettingsView.swift */; };
+		181AD6DC2ADE757C008AA8A1 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AD6DB2ADE757C008AA8A1 /* PhotoPickerView.swift */; };
+		185E50342AE947D400CBACE3 /* CountryCodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E50332AE947D400CBACE3 /* CountryCodesView.swift */; };
+		185E50362AE9487B00CBACE3 /* TextFieldCountryCodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E50352AE9487B00CBACE3 /* TextFieldCountryCodesView.swift */; };
+		185E503D2AEA577E00CBACE3 /* FavoriteKontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E503C2AEA577E00CBACE3 /* FavoriteKontaktView.swift */; };
+		186D1FCE2AE9353D00A99BCD /* TexfieldViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D1FCD2AE9353D00A99BCD /* TexfieldViewModifier.swift */; };
+		186D1FD12AE9392A00A99BCD /* ColorSettingHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D1FD02AE9392A00A99BCD /* ColorSettingHex.swift */; };
+		188162F32AE92D8900EAF663 /* KontaktImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188162F22AE92D8900EAF663 /* KontaktImage.swift */; };
 		18DB50272AB094F1007C4BD3 /* oppgave1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50262AB094F1007C4BD3 /* oppgave1App.swift */; };
 		18DB50292AB094F1007C4BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50282AB094F1007C4BD3 /* ContentView.swift */; };
 		18DB502B2AB094F2007C4BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DB502A2AB094F2007C4BD3 /* Assets.xcassets */; };
@@ -19,8 +26,7 @@
 		18DB50442AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50432AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift */; };
 		18DB50512AB0951E007C4BD3 /* Kontakter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50502AB0951E007C4BD3 /* Kontakter.swift */; };
 		18DB50532AB09B4C007C4BD3 /* AddKontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */; };
-		18DB50552AB1B6DF007C4BD3 /* KontakterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */; };
-		18DB50572AB2138B007C4BD3 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50562AB2138B007C4BD3 /* EditView.swift */; };
+		18DB50552AB1B6DF007C4BD3 /* KontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50542AB1B6DF007C4BD3 /* KontaktView.swift */; };
 		18DB50592AB33D2D007C4BD3 /* EditKontaktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToFavoriteView.swift; sourceTree = "<group>"; };
+		1810AD9B2AC3044C009FF86F /* AddToFavoriteIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToFavoriteIconView.swift; sourceTree = "<group>"; };
 		1817B4EB2AB8A2A40069742C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		1817B4ED2AB8A63F0069742C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		181AD6DB2ADE757C008AA8A1 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		185E50332AE947D400CBACE3 /* CountryCodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodesView.swift; sourceTree = "<group>"; };
+		185E50352AE9487B00CBACE3 /* TextFieldCountryCodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCountryCodesView.swift; sourceTree = "<group>"; };
+		185E503C2AEA577E00CBACE3 /* FavoriteKontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteKontaktView.swift; sourceTree = "<group>"; };
+		186D1FCD2AE9353D00A99BCD /* TexfieldViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexfieldViewModifier.swift; sourceTree = "<group>"; };
+		186D1FD02AE9392A00A99BCD /* ColorSettingHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettingHex.swift; sourceTree = "<group>"; };
+		188162F22AE92D8900EAF663 /* KontaktImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontaktImage.swift; sourceTree = "<group>"; };
 		18DB50232AB094F1007C4BD3 /* oppgave1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oppgave1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DB50262AB094F1007C4BD3 /* oppgave1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oppgave1App.swift; sourceTree = "<group>"; };
 		18DB50282AB094F1007C4BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,8 +70,7 @@
 		18DB50432AB094F2007C4BD3 /* oppgave1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oppgave1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		18DB50502AB0951E007C4BD3 /* Kontakter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kontakter.swift; sourceTree = "<group>"; };
 		18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKontaktView.swift; sourceTree = "<group>"; };
-		18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakterView.swift; sourceTree = "<group>"; };
-		18DB50562AB2138B007C4BD3 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		18DB50542AB1B6DF007C4BD3 /* KontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontaktView.swift; sourceTree = "<group>"; };
 		18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditKontaktView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +99,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185E50392AEA54F000CBACE3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		185E503A2AEA54F900CBACE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DB50502AB0951E007C4BD3 /* Kontakter.swift */,
+				188162F22AE92D8900EAF663 /* KontaktImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185E503B2AEA550100CBACE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18DB50282AB094F1007C4BD3 /* ContentView.swift */,
+				18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */,
+				18DB50542AB1B6DF007C4BD3 /* KontaktView.swift */,
+				18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */,
+				1817B4EB2AB8A2A40069742C /* FavoritesView.swift */,
+				1817B4ED2AB8A63F0069742C /* SettingsView.swift */,
+				1810AD9B2AC3044C009FF86F /* AddToFavoriteIconView.swift */,
+				181AD6DB2ADE757C008AA8A1 /* PhotoPickerView.swift */,
+				185E503C2AEA577E00CBACE3 /* FavoriteKontaktView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186D1FCB2AE9350600A99BCD /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				186D1FCF2AE9391600A99BCD /* Colors */,
+				186D1FCC2AE9351800A99BCD /* TextFields */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
+		186D1FCC2AE9351800A99BCD /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				186D1FCD2AE9353D00A99BCD /* TexfieldViewModifier.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		186D1FCF2AE9391600A99BCD /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				186D1FD02AE9392A00A99BCD /* ColorSettingHex.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		186D1FD22AE9455200A99BCD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				186D1FD32AE9456900A99BCD /* LandLineCodes */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		186D1FD32AE9456900A99BCD /* LandLineCodes */ = {
+			isa = PBXGroup;
+			children = (
+				185E50332AE947D400CBACE3 /* CountryCodesView.swift */,
+				185E50352AE9487B00CBACE3 /* TextFieldCountryCodesView.swift */,
+			);
+			path = LandLineCodes;
+			sourceTree = "<group>";
+		};
 		18DB501A2AB094F1007C4BD3 = {
 			isa = PBXGroup;
 			children = (
@@ -110,18 +196,14 @@
 		18DB50252AB094F1007C4BD3 /* oppgave1 */ = {
 			isa = PBXGroup;
 			children = (
+				185E503B2AEA550100CBACE3 /* Views */,
+				185E503A2AEA54F900CBACE3 /* Models */,
+				185E50392AEA54F000CBACE3 /* UI */,
+				186D1FD22AE9455200A99BCD /* Assets */,
+				186D1FCB2AE9350600A99BCD /* View Modifiers */,
 				18DB50262AB094F1007C4BD3 /* oppgave1App.swift */,
-				18DB50282AB094F1007C4BD3 /* ContentView.swift */,
 				18DB502A2AB094F2007C4BD3 /* Assets.xcassets */,
 				18DB502C2AB094F2007C4BD3 /* Preview Content */,
-				18DB50502AB0951E007C4BD3 /* Kontakter.swift */,
-				18DB50522AB09B4C007C4BD3 /* AddKontaktView.swift */,
-				18DB50542AB1B6DF007C4BD3 /* KontakterView.swift */,
-				18DB50562AB2138B007C4BD3 /* EditView.swift */,
-				18DB50582AB33D2D007C4BD3 /* EditKontaktView.swift */,
-				1817B4EB2AB8A2A40069742C /* FavoritesView.swift */,
-				1817B4ED2AB8A63F0069742C /* SettingsView.swift */,
-				1810AD9B2AC3044C009FF86F /* AddToFavoriteView.swift */,
 			);
 			path = oppgave1;
 			sourceTree = "<group>";
@@ -281,16 +363,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185E50362AE9487B00CBACE3 /* TextFieldCountryCodesView.swift in Sources */,
 				1817B4EC2AB8A2A40069742C /* FavoritesView.swift in Sources */,
 				18DB50512AB0951E007C4BD3 /* Kontakter.swift in Sources */,
 				18DB50292AB094F1007C4BD3 /* ContentView.swift in Sources */,
-				18DB50572AB2138B007C4BD3 /* EditView.swift in Sources */,
+				188162F32AE92D8900EAF663 /* KontaktImage.swift in Sources */,
 				1817B4EE2AB8A63F0069742C /* SettingsView.swift in Sources */,
-				1810AD9C2AC3044C009FF86F /* AddToFavoriteView.swift in Sources */,
+				186D1FCE2AE9353D00A99BCD /* TexfieldViewModifier.swift in Sources */,
+				1810AD9C2AC3044C009FF86F /* AddToFavoriteIconView.swift in Sources */,
+				186D1FD12AE9392A00A99BCD /* ColorSettingHex.swift in Sources */,
 				18DB50592AB33D2D007C4BD3 /* EditKontaktView.swift in Sources */,
 				18DB50272AB094F1007C4BD3 /* oppgave1App.swift in Sources */,
+				185E503D2AEA577E00CBACE3 /* FavoriteKontaktView.swift in Sources */,
+				181AD6DC2ADE757C008AA8A1 /* PhotoPickerView.swift in Sources */,
+				185E50342AE947D400CBACE3 /* CountryCodesView.swift in Sources */,
 				18DB50532AB09B4C007C4BD3 /* AddKontaktView.swift in Sources */,
-				18DB50552AB1B6DF007C4BD3 /* KontakterView.swift in Sources */,
+				18DB50552AB1B6DF007C4BD3 /* KontaktView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
